@@ -26,7 +26,7 @@ read -n 1 -s -r -p "Press any key to back on menu"
 add-trojan
 fi
 done
-uuid=$(cat /proc/sys/kernel/random/uuid)
+uuid=$user
 read -p "Expired (days): " masaaktif
 exp=`date -d "$masaaktif days" +"%Y-%m-%d"`
 sed -i '/#universal$/a\#& '"$user $exp"'\
