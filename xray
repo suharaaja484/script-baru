@@ -111,7 +111,7 @@ iptables-restore -t < /etc/iptables.up.rules
 netfilter-persistent save
 netfilter-persistent reload
 cd /usr/bin
-GITHUB=raw.githubusercontent.com/dugong-lewat/autoscript2/main
+GITHUB=raw.githubusercontent.com/suharaaja484/script-baru/main
 echo -e "${GB}[ INFO ]${NC} ${YB}Downloading Main Menu${NC}"
 wget -q -O menu "https://${GITHUB}/menu/menu.sh"
 wget -q -O vmess "https://${GITHUB}/menu/vmess.sh"
